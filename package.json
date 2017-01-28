@@ -1,0 +1,27 @@
+{
+  "name": "simpleexpressexample",
+  "version": "1.0.0",
+  "description": "An example of the Simple Express autoloader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skatcat31/simpleExpressExample.git"
+  },
+  "keywords": [
+    "simple",
+    "express",
+    "example"
+  ],
+  "author": "Robert Mennell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skatcat31/simpleExpressExample/issues"
+  },
+  "homepage": "https://github.com/skatcat31/simpleExpressExample#readme",
+  "dependencies": {
+    "simpleexpress": "^1.0.0"
+  }
+}
