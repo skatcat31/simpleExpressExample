@@ -18,13 +18,13 @@ const Simple = require('simpleexpress');
 const dirextory = __dirname
 
 // Do we want it to do the shorcut for listening or are we going to pass it ot a server outselves
-const listen = true;
+const delayStart = true;
 
 // Now we just pass the app our stuff
 // We could use this same setup to pass it to create multiple express apps
 // This would allow us to link togethor several apps into one super server
 // This means we can VERY easily create a HUGE internetworking of express apps as handlers
-const app = new Simple(dirextory, listen);
+const app = new Simple(dirextory, delayStart);
 
 // Ussually it's a good idea to export hte app so that other things can include this file and get a copy of it
 module.exports = app;
