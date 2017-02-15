@@ -18,7 +18,7 @@ const Simple = require('simpleexpress');
 const dirextory = __dirname
 
 // Do we want it to do the shorcut for listening or are we going to pass it ot a server outselves
-const delayStart = true;
+const delayStart = false;
 
 // Now we just pass the app our stuff
 // We could use this same setup to pass it to create multiple express apps
