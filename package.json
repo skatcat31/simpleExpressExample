@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/skatcat31/simpleExpressExample#readme",
   "dependencies": {
-    "simpleexpress": "^1.2.1"
+    "simpleexpress": "^1.x"
   }
 }
